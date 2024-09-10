@@ -118,7 +118,6 @@ img{
     width: 30%;
     height: auto;
     border-radius: 50%;
-    background-color: var(--azul-claro);
     border: 1px solid var(--azul-escuro);
 }
 
@@ -143,9 +142,21 @@ h5{
     margin-bottom: 30px;
 }
 
+/* Projetos: */
+.link-repository{
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+    color: var(--azul-escuro);
+}
+
 /* Experiências: */
 picture{
-    width: 50%;
+    width: 80%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -161,8 +172,17 @@ picture > img{
 .exp{
     font-size: 1.6rem;
 }
-ul li{
+ul {
+    margin-left: 20px;
+}
+li {
     list-style: none;
+}
+.li-skills{
+    list-style: square;
+    font-size: 1.6rem;
+    color: var(--azul-escuro);
+    font-weight: 600;
 }
 
 /* Contato: */
